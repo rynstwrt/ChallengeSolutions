@@ -1,3 +1,5 @@
+# For challenge at http://www.codewars.com/kata/greed-is-good/train/ruby
+
 def score dice
 	score = 0
 
