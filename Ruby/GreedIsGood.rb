@@ -3,7 +3,7 @@
 def score dice
 	score = 0
 
-	(1..6).each do |x|
+	(1..6).each do |x| 
 		count = dice.count x
 		if count > 2
 			(0..2).each { dice.delete x }
