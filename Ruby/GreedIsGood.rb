@@ -1,6 +1,6 @@
 # For challenge at http://www.codewars.com/kata/greed-is-good/train/ruby
 
-def score dice
+def score(dice)
 	score = 0
 
 	(1..6).each {|x| if dice.count(x) > 2 then (1..3).each {dice.delete_at(dice.index(x) || dice.length)}; score += (x > 1) ? x * 100 : 1000 end}
